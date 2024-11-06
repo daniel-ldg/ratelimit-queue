@@ -1,4 +1,4 @@
-# ratelimit-queue
+# token-bucket-queue
 
 A lightweight and configurable rate-limiting queue for handling asynchronous operations.
 
