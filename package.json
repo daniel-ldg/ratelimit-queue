@@ -1,0 +1,32 @@
+{
+	"name": "ratelimit-queue",
+	"version": "0.0.0-development",
+	"description": "A lightweight and configurable rate-limiting queue for handling asynchronous operations.",
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"files": [
+		"dist",
+		"README.md"
+	],
+	"scripts": {
+		"build": "tsup"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/daniel-ldg/ratelimit-queue.git"
+	},
+	"keywords": [],
+	"author": "daniel-ldg",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/daniel-ldg/ratelimit-queue/issues"
+	},
+	"homepage": "https://github.com/daniel-ldg/ratelimit-queue#readme",
+	"devDependencies": {
+		"@types/node": "^22.9.0",
+		"semantic-release": "^24.2.0",
+		"tsup": "^8.3.0",
+		"typescript": "^5.6.3"
+	}
+}
